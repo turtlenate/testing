@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flags</title>
+        <style>
+            body    {
+                margin: 0px;
+                background-color: lightgrey;
+            }
+
+            h1  {
+                text-align: center;
+                border: 2px solid black;
+                padding: 10px;
+                width: 50%;
+                margin-left: 25%;
+            }
+
+            h2  {
+                text-align: center;
+            }
+
+            #flag-grid  {
+                display: flex;
+                gap: 20px;
+                flex-wrap: wrap;
+                min-width: 450px;
+            }
+
+            .flags   {
+                position: relative;
+                margin: 10px;
+                border: 1px solid blue;
+                width: 400px;
+                height: 300px;
+            }
+
+            #japan-flag-white {
+                width: 300px;
+                height: 200px;
+                background-color: white;
+                position: absolute;
+                margin-left: 50px;
+            }
+
+            #japan-flag-red {
+                background-color: red;
+                height: 120px;
+                width: 120px;
+                border-radius: 50%;
+                position: absolute;
+                top: 40px;
+                left: 90px;
+            }
+
+            #bangladesh-flag-green {
+                width: 300px;
+                height: 200px;
+                background-color: darkgreen;
+                position: absolute;
+                margin-left: 50px;
+            }
+
+            #bangladesh-flag-red {
+                background-color: red;
+                height: 120px;
+                width: 120px;
+                border-radius: 50%;
+                position: absolute;
+                top: 40px;
+                left: 90px;
+            }
+
+            #palau-flag-blue {
+                width: 300px;
+                height: 200px;
+                background-color: lightblue;
+                position: absolute;
+                margin-left: 50px;
+            }
+
+            #palau-flag-yellow {
+                background-color: yellow;
+                height: 120px;
+                width: 120px;
+                border-radius: 50%;
+                position: absolute;
+                top: 40px;
+                left: 60px;
+            }
+
+            #ukraine-flag-blue {
+                width: 300px;
+                height: 200px;
+                background-color: blue;
+                position: absolute;
+                margin-left: 50px;
+            }
+
+            #ukraine-flag-yellow {
+                background-color: yellow;
+                height: 100px;
+                width: 300px;
+                position: absolute;
+                top: 100px;
+            }
+
+            #monaco-flag-blue {
+                width: 300px;
+                height: 200px;
+                background-color: maroon;
+                position: absolute;
+                margin-left: 50px;
+            }
+
+            #monaco-flag-yellow {
+                background-color: white;
+                height: 100px;
+                width: 300px;
+                position: absolute;
+                top: 100px;
+            }
+
+            #indonesia-flag-blue {
+                width: 300px;
+                height: 200px;
+                background-color: red;
+                position: absolute;
+                margin-left: 50px;
+            }
+
+            #indonesia-flag-yellow {
+                background-color: white;
+                height: 100px;
+                width: 300px;
+                position: absolute;
+                top: 100px;
+            }
+        </style>
+</head>
+<body>
+        <h1>CSS Flags</h1>
+
+        <div id="flag-grid">
+            <div class="flags" id="flag1">
+                <h2 class="flag-title" id="flag1-title">Japan</h2>
+                <div id="japan-flag-white">
+                    <div id="japan-flag-red"></div>
+                </div>
+            </div>
+            <div class="flags" id="flag2">
+                <h2 class="flag-title" id="flag2-title">Bangladesh</h2>
+                <div id="bangladesh-flag-green">
+                    <div id="bangladesh-flag-red"></div>
+                </div>
+            </div>
+            <div class="flags" id="flag3">
+                <h2 class="flag-title" id="flag3-title">Palau</h2>
+                <div id="palau-flag-blue">
+                    <div id="palau-flag-yellow"></div>
+                </div>
+            </div>
+            <div class="flags" id="flag4">
+                <h2 class="flag-title" id="flag4-title">Ukraine</h2>
+                <div id="ukraine-flag-blue">
+                    <div id="ukraine-flag-yellow"></div>
+                </div>
+            </div>
+            <div class="flags" id="flag5">
+                <h2 class="flag-title" id="flag5-title">Monaco</h2>
+                <div id="monaco-flag-blue">
+                    <div id="monaco-flag-yellow"></div>
+                </div>
+            </div>
+            <div class="flags" id="flag6">
+                <h2 class="flag-title" id="flag6-title">Indonesia</h2>
+                <div id="indonesia-flag-blue">
+                    <div id="indonesia-flag-yellow"></div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
